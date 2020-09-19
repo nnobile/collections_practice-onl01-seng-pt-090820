@@ -11,5 +11,6 @@ def sort_array_char_count(characters)
 end
 
 def swap_elements(names)
-names.sort(["blake", "ashley", "scott"],1,2)
+  array = ["blake", "ashley", "scott"]
+  array[0,1] = array[1,0] 
 end
