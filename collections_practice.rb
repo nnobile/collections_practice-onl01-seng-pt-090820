@@ -24,3 +24,7 @@ def kesha_maker(names)
     dollar_name[2] = "$"
   end
 end
+
+def find_a(array)
+  array.find.start_with?("a")
+end
