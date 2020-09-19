@@ -1,6 +1,3 @@
-def sort_array_asc(integers)
-  integers = [25, 7, 1]
-  new_integer_array = []
-  new_integer_array << integers.sort descending
-end
-end
+numbers = [5,3,2,1]
+numbers.sort
+
