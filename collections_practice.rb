@@ -27,7 +27,13 @@ end
 
 def find_a(array)
   array.select {|word| word.start_with?("a")}
+end 
+
+def sum_array(sum)
+sum.sum
 end
+
+
 
 def add_s(array)
  array.each_with_index.collect do |w, index|
