@@ -18,3 +18,7 @@ end
 def reverse_array(reverse)
   reverse.reverse
 end
+
+def kesha_maker(dollar_names)
+  dollar_names.
+
