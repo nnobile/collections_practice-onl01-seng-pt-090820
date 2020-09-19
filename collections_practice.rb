@@ -39,3 +39,4 @@ def add_s(array)
    "#{w + "s"}"
  end
  end
+ end
