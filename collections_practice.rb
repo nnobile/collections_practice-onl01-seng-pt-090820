@@ -19,5 +19,8 @@ def reverse_array(reverse)
   reverse.reverse
 end
 
-def kesha_maker(dollar_names)
-  dollar_names.
+def kesha_maker(names)
+  names.each do |dollar_name|
+    dollar_name[2] = "$"
+  end
+end
