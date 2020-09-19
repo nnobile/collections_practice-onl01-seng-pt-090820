@@ -10,6 +10,6 @@ def sort_array_char_count(characters)
   characters.sort_by(&:length)
 end
 
-def swap_elements
+def swap_elements(swap)
 ["blake", "ashley", "scott"].swap!(1,2)
 end
