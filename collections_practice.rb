@@ -26,5 +26,5 @@ def kesha_maker(names)
 end
 
 def find_a(array)
-  array.find("a"[0])
+  array.find("a")
 end
