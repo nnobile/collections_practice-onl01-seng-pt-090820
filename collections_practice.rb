@@ -4,4 +4,3 @@ def sort_array_asc(integers)
   new_integer_array << integers.sort descending
 end
 end
-
