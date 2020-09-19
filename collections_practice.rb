@@ -7,5 +7,5 @@ numbers.sort { |a,b| b <=> a}
 end
 
 def sort_array_char_count(characters)
-  characters.sort { |word| word.length }
+  characters.sort! { |word| word.length }
 end
